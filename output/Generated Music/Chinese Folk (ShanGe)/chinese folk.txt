@@ -1,0 +1,209 @@
+X:557
+T: Dashen kai shangeren
+N: C1936
+O: China, Hebei Sushing
+S: IV, 173]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: G
+B3dB4 | e8 | e4d4 | B4A4 | E2D2E2E2 | A8 |
+F4A4 | B2d2B4 | G2A4B2 | z6
+A2 | A2G2A2G2 | G4G2E2 | E2D2G2E2 | D8
+
+
+X:386
+T: Eiwanggong ge
+N: C1756
+O: China, Hebei Bageli
+S: IV, 36]
+R: Xiaodiao, Shanglinge]
+M: 2/4
+L: 1/16
+K: C
+B2A2B2A2 | G3Ae2e2 | e2A2E4 |
+B2d2d4 | G2A2B4
+
+
+X:627
+T: Yingdetiansangxou de taiandao
+N: C1972
+O: China, Henan Ling
+S: II, 49n]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: F
+c2G2g2d2 | c3ce2d2 | f3gf4 | f8 |
+c3eg2c2 | c2cAGGA3c | G8 |
+d2d6 | d2c2c2B2 | c2c4c2 | A2AGF4 |
+A3FG2F2 | c8 |
+z2A2F2A2
+B2c2d4 | B8 | A2d2c2B2 | c8 |
+B2e2c2B2 | G2A2E2F2 | A4B2G2 | G2G4F2 | G8 |
+E2F2G2F2 | F2G2G2D2 |
+G2D2B4 | G2G2G2F2 | E2C2E2C2 | _C4z2z2 |
+F3DF2D2 | C3CD2C2 | G3GE2G2 | C2E2F6GE | C8
+
+
+X:177
+T: Yinhui
+N: C1866
+O: China, Jiangsu Riqi
+S: III, 549]
+R: Xiaodiao. Fun?  hongzi]
+M: 2/4
+L: 1/16
+K: A
+z2f2B2Bc | B2cBA4
+E2B2B2A2 | B2B2c4
+c2c2 | e2f4ed | B4
+c2B, | G2E4 |
+c2B2cB | B4c2 | BAFE | F2E2 | A4 |
+c'2cAc | cg | 4c | GE | GFAG |
+E2GG | FE3
+AcA2 | cdF2 | Gf | c3deg | cBAG | FAG- | z- |
+dBde | AcA2 | GAGc | A2cA | C2GA |
+A2AG | GA | GAGE | D8 |
+A2A2A2 | G6 | A2A2- | B2cA | GAcB | G4
+
+
+X:481
+T: Tenmin ge
+N: C1573
+O: China, Shandong, Tihang
+S: III, 380]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: C
+A2A2G2EGA3e | A2fec2d2 | e2e2d2cA | A6A2 | G2F2E2D2 |
+A3Ac2A2 | cdcdcAGA | AGEDD4 |
+
+
+X:594
+T: Wuzu lanche
+N: C1929
+O: China, Heilongsu, Changbai
+S: IV, 39]
+R: Wuge, Daqishange]
+M: 2/4
+L: 1/16
+K: Ab
+f2f2f2ff | f2efa2b2 | c2a2e2a2 | f3ec2e2 | c8 |
+f2bfa4 | c6bc | a6bc | e2c2z2z2 |
+c2e2f3g | e2e2c2z2 |
+f2c2b2z2 | b2f2f2b2 | a2b4b2 | B8 |
+B12- | f4z4 |
+f2abc2b2 | f6f2 | c4e2f2 | f8
+
+
+X:334
+T
+
+----------------------
+
+X:19
+T: Ga
+N: 1/16
+K: C
+c2c2B2ce | c2Bdc2A2 | G3ee2c2 | e2B2Acce | c2AcB2eB | G2E8
+
+
+X:209
+T: Maiyuan hao
+N: C1556
+O: China, Heichunnan
+S: I, 337, 2)]
+N: Hui Han
+R: Shange, Guanmin huozi]
+M: 4/4
+L: 1/8
+K: G
+B4B4 | B2A4B2 | E2G2E4 | E4D4 | B2BAF4 |
+B4B4 | B3dB2F2 | A4z2
+E2F2 | A3BA2G2 | GABAG4 | B2BAG2AB | A8 |
+d2ABG2GA | B4ABA2D4
+A,4z2E2 | B,4z4 |
+A2E2E2G2 | F2E2E2D2 | B,4z4 |
+E4B2B2 | A2A2E2G2 | A2E2F2D2 | G2D2E2E2 | F6G2 | A2B2B2A2 | E3EF2A2 | A2A2e2B2
+ d8 |
+e2cde2d2 | B4A2F2 | B2G2A4 |
+G2A2E2D2 | E4F2B2 | A4F2EG | E8
+
+
+X:290
+T: Shouerjia changheng wan
+N: C1831
+O: China, Henan Hengshu
+S: IV, 12n]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: C
+ded3c | G2GEG4 | d2dcA3Gdcde | GAD4z2 |
+G2A2G4
+E2EGA4
+cec2d2c2 | c2d2c2d2 |
+d2e2B2AG | E2GED4
+
+
+X:425
+T: Gayu canyanggolai
+N: C2606
+O: China, Ganxi Suileng
+S: IV, 162]
+R: Haozi, Ganan qin, 221]
+R: Xiaodiao, Changshan shange]
+M: 2/4
+L: 1/16
+K: C
+A3AG2A2 | G2c2A2G2 | F2D2F2D2 | D8 |
+c2GAG4 | GAAcc4 | D2EDD4 |
+A2EGFDF2 | AGAcGAFF | G6z2 |
+G2GDG2E2 | GAGFGcc2 | GAGCD8
+
+
+X:641
+O: China, Jiangsu, Shounan
+S: III, 582]
+: 120]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: A
+FFGecBA2 | B3cBBG2 | B,8 | B2cBG2z2
+FBB2AB2B | A2B2A4 |
+e6e2 | e2e2e2c2 | e2f2z4 |
+f2f2cdec | efeeF4 |
+eef2z2B2 | GAB2E2zB | G2B2G2B2 | B2c2BBc2 | BAD2E4 |
+F2E2Beca | F3FG2B2 | F2FGFBDG | EFDDFCE | C4
+A2f2 | c2F2G4 | B4c2c2 | B2GFA2B2 | e2c2B4
+
+
+X:34F2
+T: Siji gongli haowaiteige
+N: C1831
+O: China, An2, 2)]
+R: Xiaodiao, Xiuhua haozi, Liuhai hoohua diao]
+M: 2/4
+L: 1/16
+K: A
+c2e2c2B2 | F2F2C2_E2 | C8 |
+C4F2C2 | B2d2c2B2 | B2cBB4 | G2B2G2G2 | c4B2G2 | C8 |
+B4c2B2 | c2f2e2c4 | c3eG2F2 | A8 | c8- | c8
+
+
+X:660
+T: Sengikongfang gaoyuangyanglao
+N: C2034
+O: China, Liaoning, Chaoyeng
+S: III, 622]
+R: Xiaodiao, Yongshange]
+M: 2/4
+L: 1/16
+K: D
+B2BBG4 | B2BBB4 | E3GFEF2 | E8 |
+BAGBE2G2 | B2GFG4 | B2GBF2D2 | E2GBGFE2 | G3BG4 |
+D2C2E4 | B2BGG2BA | F2GFG2C2 | E8 |
+F3GB2B2 | G2E2G4 | B2GFF4 | G2
