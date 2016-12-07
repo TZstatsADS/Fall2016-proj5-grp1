@@ -22,7 +22,7 @@ Term: Fall 2016
 	
 	+ Further improvement: In order to predict a more beautiful melody, we could improve by: 
 		+ Add more data in the train step
-		+ Adjust the parameter
+		+ Adjust the parameter in the training model
 		
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
