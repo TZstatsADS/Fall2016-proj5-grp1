@@ -1,0 +1,29 @@
+{{extend 'layout.html'}}
+
+<h1>Nottingham folk music Style</h1>
+<form action=" {{=URL('generate1')}} ">
+    Start with
+    <input name="start_with1"/>
+    <input type="submit"/>
+</form>
+
+<h1>Chinese folk music Style</h1>
+<form action=" {{=URL('generate2')}} ">
+    Start with
+    <input name="start_with2"/>
+    <input type="submit"/>
+</form>
+
+<h1>Chinese pop music Style</h1>
+<form action=" {{=URL('generate3')}} ">
+    Start with
+    <input name="start_with3"/>
+    <input type="submit"/>
+</form>
+
+<h1>Classic music Style</h1>
+<form action=" {{=URL('generate4')}} ">
+    Start with
+    <input name="start_with4"/>
+    <input type="submit"/>
+</form>

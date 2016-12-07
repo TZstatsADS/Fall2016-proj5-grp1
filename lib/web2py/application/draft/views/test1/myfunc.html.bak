@@ -1,0 +1,8 @@
+{{extend 'layout.html'}}
+<form action="{{=URL('runcode')}}">
+    Your name?
+    <input name="ff" />
+    <input type="submit" />
+</form>
+
+{{=BEAUTIFY(response._vars)}}

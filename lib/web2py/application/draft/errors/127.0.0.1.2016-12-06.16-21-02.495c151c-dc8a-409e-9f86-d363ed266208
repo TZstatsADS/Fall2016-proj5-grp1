@@ -1,0 +1,1122 @@
+(dp1
+S'output'
+p2
+S'<type \'exceptions.ValueError\'> Variable rnnlm/MultiRNNCell/Cell0/BasicLSTMCell/Linear/Matrix already exists, disallowed. Did you mean to set reuse=True in VarScope? Originally defined at:\n\n  File "applications/draft/modules/model.py", line 44, in __init__\n  File "applications/draft/modules/sample.py", line 35, in sample\n    model = Model(saved_args, True)\n  File "applications/draft/modules/sample.py", line 27, in main\n    args = parser.parse_args()\n'
+p3
+sS'layer'
+p4
+S'/home/ignii/web2py/applications/draft/controllers/test1.py'
+p5
+sS'code'
+p6
+S'# -*- coding: utf-8 -*-\n# try something like\ndef myfunc():\n    return locals()\n\ndef runcode():\n    name = request.vars.ff\n    return locals()\n\ndef check():\n    from sample import main\n    a=main()\n    # c=apb(4)\n    return a\n\nresponse._vars=response._caller(check)\n'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__hash__'
+p12
+S"<method-wrapper '__hash__' of exceptions.ValueError object>"
+p13
+sS'__setattr__'
+p14
+S"<method-wrapper '__setattr__' of exceptions.ValueError object>"
+p15
+sS'__reduce_ex__'
+p16
+S'<built-in method __reduce_ex__ of exceptions.ValueError object>'
+p17
+sS'__getslice__'
+p18
+S"<method-wrapper '__getslice__' of exceptions.ValueError object>"
+p19
+sS'__getitem__'
+p20
+S"<method-wrapper '__getitem__' of exceptions.ValueError object>"
+p21
+sS'__setstate__'
+p22
+S'<built-in method __setstate__ of exceptions.ValueError object>'
+p23
+sS'args'
+p24
+S"('Variable rnnlm/MultiRNNCell/Cell0/BasicLSTMCell/... line 27, in main\\n    args = parser.parse_args()\\n',)"
+p25
+sS'__reduce__'
+p26
+S'<built-in method __reduce__ of exceptions.ValueError object>'
+p27
+sS'__str__'
+p28
+S"<method-wrapper '__str__' of exceptions.ValueError object>"
+p29
+sS'__format__'
+p30
+S'<built-in method __format__ of exceptions.ValueError object>'
+p31
+sS'__getattribute__'
+p32
+S"<method-wrapper '__getattribute__' of exceptions.ValueError object>"
+p33
+sS'__class__'
+p34
+S"<type 'exceptions.ValueError'>"
+p35
+sS'__unicode__'
+p36
+S'<built-in method __unicode__ of exceptions.ValueError object>'
+p37
+sS'__delattr__'
+p38
+S"<method-wrapper '__delattr__' of exceptions.ValueError object>"
+p39
+sS'__subclasshook__'
+p40
+S'<built-in method __subclasshook__ of type object>'
+p41
+sS'__repr__'
+p42
+S"<method-wrapper '__repr__' of exceptions.ValueError object>"
+p43
+sS'__dict__'
+p44
+S'{}'
+p45
+sS'__sizeof__'
+p46
+S'<built-in method __sizeof__ of exceptions.ValueError object>'
+p47
+sS'__doc__'
+p48
+S"'Inappropriate argument value (of correct type).'"
+p49
+sS'__init__'
+p50
+S"<method-wrapper '__init__' of exceptions.ValueError object>"
+p51
+sS'__new__'
+p52
+S'<built-in method __new__ of type object>'
+p53
+ssS'evalue'
+p54
+S'Variable rnnlm/MultiRNNCell/Cell0/BasicLSTMCell/Linear/Matrix already exists, disallowed. Did you mean to set reuse=True in VarScope? Originally defined at:\n\n  File "applications/draft/modules/model.py", line 44, in __init__\n  File "applications/draft/modules/sample.py", line 35, in sample\n    model = Model(saved_args, True)\n  File "applications/draft/modules/sample.py", line 27, in main\n    args = parser.parse_args()\n'
+p55
+sS'request'
+p56
+cgluon.html
+XML_unpickle
+p57
+(S's][\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>draft</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>test1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-507ee3b6-e04e-40e5-b805-eaf95dbc54cc<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_draft</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-495cba98-756f-474f-a446-d72e302e0eda<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-5f709852-9494-49b5-b37d-4f18d43176f7<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.8,zh-TW;q=0.6,zh;q=0.4,zh-CN;q=0.2</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=127.0.0.1-5f709852-9494-49b5-b37d-4f18d43176f7; session_id_draft=127.0.0.1-495cba98-756f-474f-a446-d72e302e0eda; session_id_admin=127.0.0.1-507ee3b6-e04e-40e5-b805-eaf95dbc54cc</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_UPGRADE_INSECURE_REQUESTS</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/draft/test1/check</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>50896</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>adamgao-ubuntu</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/ignii/web2py/applications/draft/&#x27;, &#x27;/home/ignii/web2py/applications/admin/&#x27;, &#x27;/home/ignii/web2py/applications/welcome/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/ignii/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x7f94cdeea518: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;adamgao-ubuntu&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/home/ignii/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/ignii/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.8,zh-TW;q=0.6,zh;q=0.4,zh-CN;q=0.2</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=127.0.0.1-5f709852-9494-49b5-b37d-4f18d43176f7; session_id_draft=127.0.0.1-495cba98-756f-474f-a446-d72e302e0eda; session_id_admin=127.0.0.1-507ee3b6-e04e-40e5-b805-eaf95dbc54cc</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_upgrade_insecure_requests</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>198.105.244.228</div></td></tr><tr><td><div>198.105.254.228</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>adamgao-ubuntu</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/draft/test1/check</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>50896</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/draft/test1/check</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>adamgao-ubuntu</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/home/ignii/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.14.6-stable+timestamp.2016.05.10.00.21.47</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7f94d6bde1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x7f94cef78600&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x7f94a41472d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7f94d6bde1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x7f94cef78600&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x7f94a41472d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/home/ignii/web2py/applications/draft/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>check</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/ignii/web2py/applications/draft/&#x27;, &#x27;/home/ignii/web2py/applications/admin/&#x27;, &#x27;/home/ignii/web2py/applications/welcome/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/ignii/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x7f94cdeea518: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;adamgao-ubuntu&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/home/ignii/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/ignii/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>198.105.244.228</div></td></tr><tr><td><div>198.105.254.228</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>adamgao-ubuntu</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.14.6-stable+timestamp.2016.05.10.00.21.47</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_scheduler</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_shell</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2016, 12, 6, 16, 21, 2, 209230)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/draft/test1/check</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2016, 12, 6, 21, 21, 2, 209243)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x7f944f565c10&gt;</div></td></tr></table></div>'
+tRp58
+sS'frames'
+p59
+(lp60
+(dp61
+S'file'
+p62
+S'/home/ignii/web2py/gluon/restricted.py'
+p63
+sS'dump'
+p64
+(dp65
+S'environment'
+p66
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}"
+p67
+sS'ccode'
+p68
+S'<code object <module> at 0x7f94643c62b0, file "/...applications/draft/controllers/test1.py", line 3>'
+p69
+ssS'lnum'
+p70
+I227
+sS'lines'
+p71
+(dp72
+I224
+S'            ccode = code'
+p73
+sI225
+S'        else:'
+p74
+sI226
+S'            ccode = compile2(code, layer)'
+p75
+sI227
+S'        exec ccode in environment'
+p76
+sI228
+S'    except HTTP:'
+p77
+sI229
+S'        raise'
+p78
+sI230
+S'    except RestrictedError:'
+p79
+sI231
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p80
+sI222
+S'    try:'
+p81
+sI223
+S'        if isinstance(code, types.CodeType):'
+p82
+ssS'call'
+p83
+S"(code='# -*- coding: utf-8 -*-\\n# try something like\\ndef...return a\\n\\nresponse._vars=response._caller(check)\\n', environment={'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}, layer='/home/ignii/web2py/applications/draft/controllers/test1.py')"
+p84
+sS'func'
+p85
+S'restricted'
+p86
+sa(dp87
+g62
+S'/home/ignii/web2py/applications/draft/controllers/test1.py'
+p88
+sg64
+(dp89
+sg70
+I16
+sg71
+(dp90
+I5
+S''
+sI6
+S'def runcode():'
+p91
+sI7
+S'    name = request.vars.ff'
+p92
+sI8
+S'    return locals()'
+p93
+sI9
+S''
+sI10
+S'def check():'
+p94
+sI11
+S'    from sample import main'
+p95
+sI12
+S'    a=main()'
+p96
+sI13
+S'    # c=apb(4)'
+p97
+sI14
+S'    return a'
+p98
+ssg83
+S'()'
+p99
+sg85
+S'<module>'
+p100
+sa(dp101
+g62
+S'/home/ignii/web2py/gluon/globals.py'
+p102
+sg64
+(dp103
+S'self'
+p104
+S'undefined'
+p105
+sS'f'
+S'<function check>'
+p106
+ssg70
+I417
+sg71
+(dp107
+I416
+S'        self._vars = None'
+p108
+sI417
+S'        self._caller = lambda f: f()'
+p109
+sI418
+S'        self._view_environment = None'
+p110
+sI419
+S'        self._custom_commit = None'
+p111
+sI420
+S'        self._custom_rollback = None'
+p112
+sI421
+S"        self.generic_patterns = ['*']"
+p113
+sI412
+S"        self.flash = ''            # used by the default view layout"
+p114
+sI413
+S'        self.meta = Storage()      # used by web2py_ajax.html'
+p115
+sI414
+S'        self.menu = []             # used by the default view layout'
+p116
+sI415
+S'        self.files = []            # used by web2py_ajax.html'
+p117
+ssg83
+S'(f=<function check>)'
+p118
+sg85
+S'<lambda>'
+p119
+sa(dp120
+g62
+S'/home/ignii/web2py/applications/draft/controllers/test1.py'
+p121
+sg64
+(dp122
+S'a'
+g105
+sS'main'
+p123
+S'<function main>'
+p124
+ssg70
+I12
+sg71
+(dp125
+I5
+S''
+sI6
+S'def runcode():'
+p126
+sI7
+S'    name = request.vars.ff'
+p127
+sI8
+S'    return locals()'
+p128
+sI9
+S''
+sI10
+S'def check():'
+p129
+sI11
+S'    from sample import main'
+p130
+sI12
+S'    a=main()'
+p131
+sI13
+S'    # c=apb(4)'
+p132
+sI14
+S'    return a'
+p133
+ssg83
+S'()'
+p134
+sg85
+S'check'
+p135
+sa(dp136
+g62
+S'/home/ignii/web2py/applications/draft/modules/sample.py'
+p137
+sg64
+(dp138
+S'global sample'
+p139
+S'<function sample>'
+p140
+sS'args'
+p141
+S"Namespace(n=2000, prime=u' ', sample=1, save_dir='save')"
+p142
+ssg70
+I28
+sg71
+(dp143
+I32
+S"    with open(os.path.join(moduledir,'applications/draft/modules/save/config.pkl'), 'rb') as f:"
+p144
+sI23
+S"                       help='prime text')"
+p145
+sI24
+S"    parser.add_argument('--sample', type=int, default=1,"
+p146
+sI25
+S"                       help='0 to use max at each timestep, 1 to sample at each timestep, 2 to sample on spaces')"
+p147
+sI26
+S''
+sI27
+S'    args = parser.parse_args()'
+p148
+sI28
+S'    return(sample(args))'
+p149
+sI29
+S''
+sI30
+S'def sample(args):'
+p150
+sI31
+S"    moduledir = os.path.dirname(os.path.abspath('__file__'))"
+p151
+ssg83
+S'()'
+p152
+sg85
+S'main'
+p153
+sa(dp154
+g62
+S'/home/ignii/web2py/applications/draft/modules/sample.py'
+p155
+sg64
+(dp156
+S'saved_args'
+p157
+S"Namespace(batch_size=1, data_dir='data/nottingha...e', save_every=2000, seq_length=1, vocab_size=92)"
+p158
+sS'model'
+p159
+g105
+sS'builtinTrue'
+p160
+S'True'
+p161
+sS'global Model'
+p162
+S'<class applications.draft.modules.model.Model>'
+p163
+ssg70
+I35
+sg71
+(dp164
+I32
+S"    with open(os.path.join(moduledir,'applications/draft/modules/save/config.pkl'), 'rb') as f:"
+p165
+sI33
+S'        saved_args = cPickle.load(f)'
+p166
+sI34
+S''
+sI35
+S'    model = Model(saved_args, True)'
+p167
+sI36
+S"    with open(os.path.join(moduledir,'applications/draft/modules/save/chars_vocab.pkl'), 'rb') as f:"
+p168
+sI37
+S'        chars, vocab = cPickle.load(f)'
+p169
+sI38
+S'    with tf.Session() as sess:'
+p170
+sI39
+S'        tf.initialize_all_variables().run()'
+p171
+sI30
+S'def sample(args):'
+p172
+sI31
+S"    moduledir = os.path.dirname(os.path.abspath('__file__'))"
+p173
+ssg83
+S"(args=Namespace(n=2000, prime=u' ', sample=1, save_dir='save'))"
+p174
+sg85
+S'sample'
+p175
+sa(dp176
+g62
+S'/home/ignii/web2py/applications/draft/modules/model.py'
+p177
+sg64
+(dp178
+S'last_state'
+p179
+g105
+sS'seq2seq.rnn_decoder'
+p180
+S'<function rnn_decoder>'
+p181
+sS'inputs'
+p182
+S"[<tf.Tensor 'rnnlm_3/Squeeze:0' shape=(1, 128) dtype=float32>]"
+p183
+sS'builtinNone'
+p184
+S'None'
+p185
+sS'outputs'
+p186
+g105
+sS'self'
+p187
+S'<applications.draft.modules.model.Model instance>'
+p188
+sS'loop_function'
+p189
+g105
+sS'cell'
+p190
+S'<tensorflow.python.ops.rnn_cell.MultiRNNCell object>'
+p191
+sS'global seq2seq'
+p192
+S"<module 'tensorflow.python.ops.seq2seq' from '/h...site-packages/tensorflow/python/ops/seq2seq.pyc'>"
+p193
+sS'self.initial_state'
+p194
+S"(LSTMStateTuple(c=<tf.Tensor 'zeros_22:0' shape=(...ensor 'zeros_23:0' shape=(1, 128) dtype=float32>), LSTMStateTuple(c=<tf.Tensor 'zeros_24:0' shape=(...ensor 'zeros_25:0' shape=(1, 128) dtype=float32>))"
+p195
+sS'scope'
+p196
+g105
+sS'infer'
+p197
+g161
+sS'loop'
+p198
+S'<function loop>'
+p199
+ssg70
+I44
+sg71
+(dp200
+I39
+S''
+sI40
+S'        def loop(prev, _):'
+p201
+sI41
+S'            prev = tf.matmul(prev, softmax_w) + softmax_b'
+p202
+sI42
+S'            prev_symbol = tf.stop_gradient(tf.argmax(prev, 1))'
+p203
+sI43
+S'            return tf.nn.embedding_lookup(embedding, prev_symbol)'
+p204
+sI44
+S''
+sI45
+S"        outputs, last_state = seq2seq.rnn_decoder(inputs, self.initial_state, cell, loop_function=loop if infer else None, scope='rnnlm')"
+p205
+sI46
+S'        output = tf.reshape(tf.concat(1, outputs), [-1, args.rnn_size])'
+p206
+sI47
+S'        self.logits = tf.matmul(output, softmax_w) + softmax_b'
+p207
+sI48
+S'        self.probs = tf.nn.softmax(self.logits)'
+p208
+ssg83
+S"(self=<applications.draft.modules.model.Model instance>, args=Namespace(batch_size=1, data_dir='data/nottingha...e', save_every=2000, seq_length=1, vocab_size=92), infer=True)"
+p209
+sg85
+g50
+sa(dp210
+g62
+S'/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/seq2seq.py'
+p211
+sg64
+(dp212
+S'cell'
+p213
+S'<tensorflow.python.ops.rnn_cell.MultiRNNCell object>'
+p214
+sS'output'
+p215
+g105
+sS'state'
+p216
+S"(LSTMStateTuple(c=<tf.Tensor 'zeros_22:0' shape=(...ensor 'zeros_23:0' shape=(1, 128) dtype=float32>), LSTMStateTuple(c=<tf.Tensor 'zeros_24:0' shape=(...ensor 'zeros_25:0' shape=(1, 128) dtype=float32>))"
+p217
+sS'inp'
+p218
+S"<tf.Tensor 'rnnlm_3/Squeeze:0' shape=(1, 128) dtype=float32>"
+p219
+ssg70
+I146
+sg71
+(dp220
+I141
+S'      if loop_function is not None and prev is not None:'
+p221
+sI142
+S'        with variable_scope.variable_scope("loop_function", reuse=True):'
+p222
+sI143
+S'          inp = loop_function(prev, i)'
+p223
+sI144
+S'      if i > 0:'
+p224
+sI145
+S'        variable_scope.get_variable_scope().reuse_variables()'
+p225
+sI146
+S'      output, state = cell(inp, state)'
+p226
+sI147
+S'      outputs.append(output)'
+p227
+sI148
+S'      if loop_function is not None:'
+p228
+sI149
+S'        prev = output'
+p229
+sI150
+S'  return outputs, state'
+p230
+ssg83
+S"(decoder_inputs=[<tf.Tensor 'rnnlm_3/Squeeze:0' shape=(1, 128) dtype=float32>], initial_state=(LSTMStateTuple(c=<tf.Tensor 'zeros_22:0' shape=(...ensor 'zeros_23:0' shape=(1, 128) dtype=float32>), LSTMStateTuple(c=<tf.Tensor 'zeros_24:0' shape=(...ensor 'zeros_25:0' shape=(1, 128) dtype=float32>)), cell=<tensorflow.python.ops.rnn_cell.MultiRNNCell object>, loop_function=<function loop>, scope='rnnlm')"
+p231
+sg85
+S'rnn_decoder'
+p232
+sa(dp233
+g62
+S'/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell.py'
+p234
+sg64
+(dp235
+S'cell'
+p236
+S'<tensorflow.python.ops.rnn_cell.BasicLSTMCell object>'
+p237
+sS'cur_state'
+p238
+S"LSTMStateTuple(c=<tf.Tensor 'zeros_22:0' shape=(...ensor 'zeros_23:0' shape=(1, 128) dtype=float32>)"
+p239
+sS'cur_inp'
+p240
+S"<tf.Tensor 'rnnlm_3/Squeeze:0' shape=(1, 128) dtype=float32>"
+p241
+sS'new_state'
+p242
+g105
+ssg70
+I815
+sg71
+(dp243
+I810
+S'            cur_state = state[i]'
+p244
+sI811
+S'          else:'
+p245
+sI812
+S'            cur_state = array_ops.slice('
+p246
+sI813
+S'                state, [0, cur_state_pos], [-1, cell.state_size])'
+p247
+sI814
+S'            cur_state_pos += cell.state_size'
+p248
+sI815
+S'          cur_inp, new_state = cell(cur_inp, cur_state)'
+p249
+sI816
+S'          new_states.append(new_state)'
+p250
+sI817
+S'    new_states = (tuple(new_states) if self._state_is_tuple'
+p251
+sI818
+S'                  else array_ops.concat(1, new_states))'
+p252
+sI819
+S'    return cur_inp, new_states'
+p253
+ssg83
+S"(self=<tensorflow.python.ops.rnn_cell.MultiRNNCell object>, inputs=<tf.Tensor 'rnnlm_3/Squeeze:0' shape=(1, 128) dtype=float32>, state=(LSTMStateTuple(c=<tf.Tensor 'zeros_22:0' shape=(...ensor 'zeros_23:0' shape=(1, 128) dtype=float32>), LSTMStateTuple(c=<tf.Tensor 'zeros_24:0' shape=(...ensor 'zeros_25:0' shape=(1, 128) dtype=float32>)), scope=None)"
+p254
+sg85
+S'__call__'
+p255
+sa(dp256
+g62
+S'/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell.py'
+p257
+sg64
+(dp258
+S'inputs'
+p259
+S"<tf.Tensor 'rnnlm_3/Squeeze:0' shape=(1, 128) dtype=float32>"
+p260
+sS'global _linear'
+p261
+S'<function _linear>'
+p262
+sS'h'
+S"<tf.Tensor 'zeros_23:0' shape=(1, 128) dtype=float32>"
+p263
+sS'self'
+p264
+S'<tensorflow.python.ops.rnn_cell.BasicLSTMCell object>'
+p265
+sS'self._num_units'
+p266
+S'128'
+p267
+sS'builtinTrue'
+p268
+g161
+sS'concat'
+p269
+g105
+ssg70
+I311
+sg71
+(dp270
+I306
+S'      # Parameters of gates are concatenated into one multiply for efficiency.'
+p271
+sI307
+S'      if self._state_is_tuple:'
+p272
+sI308
+S'        c, h = state'
+p273
+sI309
+S'      else:'
+p274
+sI310
+S'        c, h = array_ops.split(1, 2, state)'
+p275
+sI311
+S'      concat = _linear([inputs, h], 4 * self._num_units, True)'
+p276
+sI312
+S''
+sI313
+S'      # i = input_gate, j = new_input, f = forget_gate, o = output_gate'
+p277
+sI314
+S'      i, j, f, o = array_ops.split(1, 4, concat)'
+p278
+sI315
+S''
+ssg83
+S"(self=<tensorflow.python.ops.rnn_cell.BasicLSTMCell object>, inputs=<tf.Tensor 'rnnlm_3/Squeeze:0' shape=(1, 128) dtype=float32>, state=LSTMStateTuple(c=<tf.Tensor 'zeros_22:0' shape=(...ensor 'zeros_23:0' shape=(1, 128) dtype=float32>), scope=None)"
+p279
+sg85
+g255
+sa(dp280
+g62
+S'/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell.py'
+p281
+sg64
+(dp282
+S'dtype'
+p283
+S'tf.float32'
+p284
+sS'total_arg_size'
+p285
+S'256'
+p286
+sS'output_size'
+p287
+S'512'
+p288
+ssg70
+I905
+sg71
+(dp289
+I900
+S'  dtype = [a.dtype for a in args][0]'
+p290
+sI901
+S''
+sI902
+S'  # Now the computation.'
+p291
+sI903
+S'  with vs.variable_scope(scope or "Linear"):'
+p292
+sI904
+S'    matrix = vs.get_variable('
+p293
+sI905
+S'        "Matrix", [total_arg_size, output_size], dtype=dtype)'
+p294
+sI906
+S'    if len(args) == 1:'
+p295
+sI907
+S'      res = math_ops.matmul(args[0], matrix)'
+p296
+sI908
+S'    else:'
+p297
+sI909
+S'      res = math_ops.matmul(array_ops.concat(1, args), matrix)'
+p298
+ssg83
+S"(args=[<tf.Tensor 'rnnlm_3/Squeeze:0' shape=(1, 128) dtype=float32>, <tf.Tensor 'zeros_23:0' shape=(1, 128) dtype=float32>], output_size=512, bias=True, bias_start=0.0, scope=None)"
+p299
+sg85
+S'_linear'
+p300
+sa(dp301
+g62
+S'/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py'
+p302
+sg64
+(dp303
+S'custom_getter'
+p304
+S'None'
+p305
+ssg70
+I1024
+sg71
+(dp306
+I1024
+S'      custom_getter=custom_getter)'
+p307
+sI1025
+S''
+sI1026
+S''
+sI1027
+S'@functools.wraps(get_variable)'
+p308
+sI1028
+S'def get_local_variable(*args, **kwargs):'
+p309
+sI1019
+S'  return get_variable_scope().get_variable('
+p310
+sI1020
+S'      _get_default_variable_store(), name, shape=shape, dtype=dtype,'
+p311
+sI1021
+S'      initializer=initializer, regularizer=regularizer, trainable=trainable,'
+p312
+sI1022
+S'      collections=collections, caching_device=caching_device,'
+p313
+sI1023
+S'      partitioner=partitioner, validate_shape=validate_shape,'
+p314
+ssg83
+S"(name='Matrix', shape=[256, 512], dtype=tf.float32, initializer=None, regularizer=None, trainable=True, collections=None, caching_device=None, partitioner=None, validate_shape=True, custom_getter=None)"
+p315
+sg85
+S'get_variable'
+p316
+sa(dp317
+g62
+S'/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py'
+p318
+sg64
+(dp319
+S'custom_getter'
+p320
+S'None'
+p321
+ssg70
+I850
+sg71
+(dp322
+I845
+S'      return var_store.get_variable('
+p323
+sI846
+S'          full_name, shape=shape, dtype=dtype, initializer=initializer,'
+p324
+sI847
+S'          regularizer=regularizer, reuse=self.reuse, trainable=trainable,'
+p325
+sI848
+S'          collections=collections, caching_device=caching_device,'
+p326
+sI849
+S'          partitioner=partitioner, validate_shape=validate_shape,'
+p327
+sI850
+S'          custom_getter=custom_getter)'
+p328
+sI851
+S''
+sI852
+S'  def _get_partitioned_variable(self,'
+p329
+sI853
+S'                                var_store,'
+p330
+sI854
+S'                                name,'
+p331
+ssg83
+S"(self=<tensorflow.python.ops.variable_scope.VariableScope object>, var_store=<tensorflow.python.ops.variable_scope._VariableStore object>, name='Matrix', shape=[256, 512], dtype=tf.float32, initializer=None, regularizer=None, trainable=True, collections=None, caching_device=None, partitioner=None, validate_shape=True, custom_getter=None)"
+p332
+sg85
+g316
+sa(dp333
+g62
+S'/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py'
+p334
+sg64
+(dp335
+S'validate_shape'
+p336
+g161
+ssg70
+I346
+sg71
+(dp337
+I341
+S'      return _true_getter('
+p338
+sI342
+S'          name, shape=shape, dtype=dtype,'
+p339
+sI343
+S'          initializer=initializer, regularizer=regularizer,'
+p340
+sI344
+S'          reuse=reuse, trainable=trainable, collections=collections,'
+p341
+sI345
+S'          caching_device=caching_device, partitioner=partitioner,'
+p342
+sI346
+S'          validate_shape=validate_shape)'
+p343
+sI347
+S''
+sI348
+S'  def _get_partitioned_variable('
+p344
+sI349
+S'      self, name, partitioner, shape=None, dtype=dtypes.float32,'
+p345
+sI350
+S'      initializer=None, regularizer=None, reuse=None,'
+p346
+ssg83
+S"(self=<tensorflow.python.ops.variable_scope._VariableStore object>, name='rnnlm/MultiRNNCell/Cell0/BasicLSTMCell/Linear/Matrix', shape=[256, 512], dtype=tf.float32, initializer=None, regularizer=None, reuse=False, trainable=True, collections=None, caching_device=None, partitioner=None, validate_shape=True, custom_getter=None)"
+p347
+sg85
+g316
+sa(dp348
+g62
+S'/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py'
+p349
+sg64
+(dp350
+S'validate_shape'
+p351
+g161
+sS'caching_device'
+p352
+S'None'
+p353
+ssg70
+I331
+sg71
+(dp354
+I326
+S''
+sI327
+S'      return self._get_single_variable('
+p355
+sI328
+S'          name=name, shape=shape, dtype=dtype,'
+p356
+sI329
+S'          initializer=initializer, regularizer=regularizer, reuse=reuse,'
+p357
+sI330
+S'          trainable=trainable, collections=collections,'
+p358
+sI331
+S'          caching_device=caching_device, validate_shape=validate_shape)'
+p359
+sI332
+S''
+sI333
+S'    if custom_getter is not None:'
+p360
+sI334
+S'      return custom_getter('
+p361
+sI335
+S'          getter=_true_getter, name=name, shape=shape, dtype=dtype,'
+p362
+ssg83
+S"(name='rnnlm/MultiRNNCell/Cell0/BasicLSTMCell/Linear/Matrix', shape=[256, 512], dtype=tf.float32, initializer=None, regularizer=None, reuse=False, trainable=True, collections=None, caching_device=None, partitioner=None, validate_shape=True)"
+p363
+sg85
+S'_true_getter'
+p364
+sa(dp365
+g62
+S'/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py'
+p366
+sg64
+(dp367
+S'traceback.format_list'
+p368
+S'<function format_list>'
+p369
+sS'"".join'
+p370
+S'<built-in method join of str object>'
+p371
+sS'tb'
+p372
+S"[('applications/draft/modules/model.py', 44, '__init__', ''), ('applications/draft/modules/sample.py', 35, 'sample', 'model = Model(saved_args, True)'), ('applications/draft/modules/sample.py', 27, 'main', 'args = parser.parse_args()')]"
+p373
+sS'name'
+p374
+S"'rnnlm/MultiRNNCell/Cell0/BasicLSTMCell/Linear/Matrix'"
+p375
+sS'global traceback'
+p376
+S"<module 'traceback' from '/home/ignii/anaconda2/lib/python2.7/traceback.pyc'>"
+p377
+ssg70
+I632
+sg71
+(dp378
+I627
+S'        # Throw away internal tf entries and only take a few lines.'
+p379
+sI628
+S'        tb = [x for x in tb if "tensorflow/python" not in x[0]][:3]'
+p380
+sI629
+S'        raise ValueError("Variable %s already exists, disallowed."'
+p381
+sI630
+S'                         " Did you mean to set reuse=True in VarScope? "'
+p382
+sI631
+S'                         "Originally defined at:\\n\\n%s" % ('
+p383
+sI632
+S'                             name, "".join(traceback.format_list(tb))))'
+p384
+sI633
+S'      found_var = self._vars[name]'
+p385
+sI634
+S'      if not shape.is_compatible_with(found_var.get_shape()):'
+p386
+sI635
+S'        raise ValueError("Trying to share variable %s, but specified shape %s"'
+p387
+sI636
+S'                         " and found shape %s." % (name, shape,'
+p388
+ssg83
+S"(self=<tensorflow.python.ops.variable_scope._VariableStore object>, name='rnnlm/MultiRNNCell/Cell0/BasicLSTMCell/Linear/Matrix', shape=TensorShape([Dimension(256), Dimension(512)]), dtype=tf.float32, initializer=None, regularizer=None, partition_info=None, reuse=False, trainable=True, collections=None, caching_device=None, validate_shape=True)"
+p389
+sg85
+S'_get_single_variable'
+p390
+sasS'pyver'
+p391
+S'Python 2.7.12: /home/ignii/anaconda2/bin/python (prefix: /home/ignii/anaconda2)'
+p392
+sS'session'
+p393
+g57
+(S's\x1a\x00\x00\x00<div><table></table></div>'
+tRp394
+sS'etype'
+p395
+S"<type 'exceptions.ValueError'>"
+p396
+sS'date'
+p397
+S'Tue Dec  6 16:21:02 2016'
+p398
+sS'response'
+p399
+g57
+(S's\xef=\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x7f94643a4ab0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_draft</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-2bdfda05-20cd-48d9-addd-9f671d8d6839<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">form_label_separator</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">formstyle</td><td style="vertical-align:top;">:</td><td><div>bootstrap3_inline</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>*</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">logo</td><td style="vertical-align:top;">:</td><td><div><a class="navbar-brand" href="http://www.web2py.com/" id="web2py-logo"><b>web<span>2</span>py</b>&trade;&nbsp;</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Home</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/draft/default/index</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>My Sites</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/site</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>This App</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Design</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/design/draft</div></td></tr></table></div></td></tr><tr><td><div><li class="divider"></li></div></td></tr><tr><td><div><table><tr><td><div>Controller</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/draft/controllers/test1.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>View</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/draft/views/test1/check.html</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>DB Model</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/draft/models/db.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Menu Model</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/draft/models/menu.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Config.ini</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/draft/private/appconfig.ini</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Layout</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/draft/views/layout.html</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Stylesheet</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/draft/static/css/web2py-bootstrap3.css</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Database</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/draft/appadmin/index</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Errors</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/errors/draft</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>About</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/about/draft</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>web2py.com</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Download</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/download</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Support</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/support</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Demo</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/demo_admin</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Quick Examples</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/examples/default/examples</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>FAQ</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/AlterEgo</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Videos</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/videos/</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Free Applications</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/appliances</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Plugins</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/plugins</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Recipes</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2pyslices.com/</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Documentation</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Online book</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book</div></td></tr></table></div></td></tr><tr><td><div><li class="divider"></li></div></td></tr><tr><td><div><table><tr><td><div>Preface</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/00</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Introduction</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/01</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Python</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/02</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Overview</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/03</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>The Core</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/04</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>The Views</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/05</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Database</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/06</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Forms and Validators</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/07</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Email and SMS</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/08</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Access Control</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/09</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Services</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/10</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Ajax Recipes</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/11</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Components and Plugins</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/12</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Deployment Recipes</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/13</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Other Recipes</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/14</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Helping web2py</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/15</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Buy web2py\'s book</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://stores.lulu.com/web2py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Community</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>None</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Groups</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/usergroups</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Twitter</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://twitter.com/web2py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Live Chat</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://webchat.freenode.net/?channels=web2py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Your Name &lt;you@example.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">description</td><td style="vertical-align:top;">:</td><td><div>a cool new app</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>Web2py Web Framework</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>web2py</div></td></tr><tr><td><div>python</div></td></tr><tr><td><div>framework</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^test1/\\w+\\.py$</div></td></tr><tr><td><div>^test1/check/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_draft</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/home/ignii/web2py/applications/draft/sessions/127.0.0.1-2bdfda05-20cd-48d9-addd-9f671d8d6839</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>c0762cbf4baf7f9af97c051e7fcb8083</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-2bdfda05-20cd-48d9-addd-9f671d8d6839</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_draft</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>draft</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>Draft</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>test1/check.html</div></td></tr></table></div>'
+tRp400
+sS'locals'
+p401
+(dp402
+S'validate_shape'
+p403
+g161
+sS'reuse'
+p404
+S'False'
+p405
+sS'regularizer'
+p406
+S'None'
+p407
+sS'dtype'
+p408
+S'tf.float32'
+p409
+sS'self'
+p410
+S'<tensorflow.python.ops.variable_scope._VariableStore object>'
+p411
+sS'trainable'
+p412
+g161
+sS'initializer'
+p413
+S'None'
+p414
+sS'should_check'
+p415
+g161
+sS'shape'
+p416
+S'TensorShape([Dimension(256), Dimension(512)])'
+p417
+sS'collections'
+p418
+S'None'
+p419
+sS'caching_device'
+p420
+S'None'
+p421
+sS'initializing_from_value'
+p422
+g405
+sS'x'
+S"('/home/ignii/anaconda2/lib/python2.7/threading.py', 774, '__bootstrap', 'self.__bootstrap_inner()')"
+p423
+sS'partition_info'
+p424
+S'None'
+p425
+sS'tb'
+p426
+S"[('applications/draft/modules/model.py', 44, '__init__', ''), ('applications/draft/modules/sample.py', 35, 'sample', 'model = Model(saved_args, True)'), ('applications/draft/modules/sample.py', 27, 'main', 'args = parser.parse_args()')]"
+p427
+sS'name'
+p428
+S"'rnnlm/MultiRNNCell/Cell0/BasicLSTMCell/Linear/Matrix'"
+p429
+sssS'traceback'
+p430
+S'Traceback (most recent call last):\n  File "/home/ignii/web2py/gluon/restricted.py", line 227, in restricted\n    exec ccode in environment\n  File "/home/ignii/web2py/applications/draft/controllers/test1.py", line 16, in <module>\n  File "/home/ignii/web2py/gluon/globals.py", line 417, in <lambda>\n    self._caller = lambda f: f()\n  File "/home/ignii/web2py/applications/draft/controllers/test1.py", line 12, in check\n    a=main()\n  File "applications/draft/modules/sample.py", line 28, in main\n    return(sample(args))\n  File "applications/draft/modules/sample.py", line 35, in sample\n    model = Model(saved_args, True)\n  File "applications/draft/modules/model.py", line 44, in __init__\n  File "/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/seq2seq.py", line 146, in rnn_decoder\n    output, state = cell(inp, state)\n  File "/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell.py", line 815, in __call__\n    cur_inp, new_state = cell(cur_inp, cur_state)\n  File "/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell.py", line 311, in __call__\n    concat = _linear([inputs, h], 4 * self._num_units, True)\n  File "/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell.py", line 905, in _linear\n    "Matrix", [total_arg_size, output_size], dtype=dtype)\n  File "/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 1024, in get_variable\n    custom_getter=custom_getter)\n  File "/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 850, in get_variable\n    custom_getter=custom_getter)\n  File "/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 346, in get_variable\n    validate_shape=validate_shape)\n  File "/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 331, in _true_getter\n    caching_device=caching_device, validate_shape=validate_shape)\n  File "/home/ignii/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 632, in _get_single_variable\n    name, "".join(traceback.format_list(tb))))\nValueError: Variable rnnlm/MultiRNNCell/Cell0/BasicLSTMCell/Linear/Matrix already exists, disallowed. Did you mean to set reuse=True in VarScope? Originally defined at:\n\n  File "applications/draft/modules/model.py", line 44, in __init__\n  File "applications/draft/modules/sample.py", line 35, in sample\n    model = Model(saved_args, True)\n  File "applications/draft/modules/sample.py", line 27, in main\n    args = parser.parse_args()\n\n'
+p431
+s.

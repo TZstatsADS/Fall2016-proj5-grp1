@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.IOError'> [Errno 2] No such file or directory: '~/web2py/applications/draft/modules/save/config.pkl'"
+p3
+sS'layer'
+p4
+S'/home/ignii/web2py/applications/draft/controllers/test1.py'
+p5
+sS'code'
+p6
+S'# -*- coding: utf-8 -*-\n# try something like\ndef myfunc():\n    return locals()\n\ndef runcode():\n    name = request.vars.ff\n    return locals()\n\ndef check():\n    from sample import main\n    a=main()\n    # c=apb(4)\n    return a\n\nresponse._vars=response._caller(check)\n'
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "/home/ignii/web2py/gluon/restricted.py", line 227, in restricted\n    exec ccode in environment\n  File "/home/ignii/web2py/applications/draft/controllers/test1.py", line 16, in <module>\n  File "/home/ignii/web2py/gluon/globals.py", line 417, in <lambda>\n    self._caller = lambda f: f()\n  File "/home/ignii/web2py/applications/draft/controllers/test1.py", line 12, in check\n    a=main()\n  File "applications/draft/modules/sample.py", line 27, in main\n    return(sample(args))\n  File "applications/draft/modules/sample.py", line 30, in sample\n    with open(\'~/web2py/applications/draft/modules/save/config.pkl\', \'rb\') as f:\nIOError: [Errno 2] No such file or directory: \'~/web2py/applications/draft/modules/save/config.pkl\'\n'
+p11
+s.
