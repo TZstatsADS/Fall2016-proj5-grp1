@@ -12,6 +12,7 @@ Term: Fall 2016
 	+ Chang Liu
 + Project summary: This project is the last project of Applied Data Science. The objective is that predicting a melody based on the previous melodies and the given start. 
 	+ Data scource and process: We got the melody data from [public website](http://www.popiano.org/big5/piano/). The raw data is in OVE format. We first transformed them into MID format, then into ABC notation format. 
+	+ Model: We used Recurrent Neural Network to predict the melody. We chose this method because it creates an internal state of the network. Unlike feedforward neural networks, RNNs can use their internal memory to process arbitrary sequences of inputs. 
 	
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
