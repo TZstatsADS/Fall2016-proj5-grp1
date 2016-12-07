@@ -20,10 +20,10 @@ Term: Fall 2016
 	+ Model: We used Recurrent Neural Network to predict the melody. We chose this method because it creates an internal state of the network. Unlike feedforward neural networks, RNNs can use their internal memory to process arbitrary sequences of inputs. We chose the LSTM, a very special kind of recurrent neural network to train the model because the notation dependency. A simple demo is:
 	![screenshot](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/blob/master/figs/RNN.png)
 	
-	+ Prediction: We predict the melody based on a given piece of melody. Users are also allowed to choose the music style. We offer three chioces: Chinese Pop, Classic and ACG. 
+	+ Prediction: We predicted the melody based on a given piece of melody. Users are also allowed to choose the music style. We offered four chioces: Nottingham, Chinese Pop, Chinese Shange and ACG. 
 	
 	+ Further improvement: In order to predict a more beautiful melody, we could improve by: 
-		+ Add more data in the train step
+		+ Add more data and styles in the training step
 		+ Adjust the parameter in the training model
 		
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
