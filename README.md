@@ -11,7 +11,7 @@ Term: Fall 2016
 	+ Wenhang Bao (wb2304)
 	+ Chang Liu
 + Project summary: This project is the last project of Applied Data Science. The objective is that predicting a melody based on the previous melodies and a given start. 
-	+ Data scource and process: We got the melody data from [public website](http://www.popiano.org/big5/piano/). The raw data is in OVE format, which contains music score information. We first transformed them into MID format, then into ABC notation format. ABC 
+	+ Data scource and process: We got the melody data from [public website](http://www.popiano.org/big5/piano/). The raw data is in OVE format, which contains music score information. We first transformed them into MID format, then into ABC notation format. ABC notation is a shorthand form of musical notation, which uses the letters A through G to represent the given notes, with other elements used to place added value on these - sharp, flat, the length of the note, key, ornamentation. A typical ABC notation is like:
 	+ Model: We used Recurrent Neural Network to predict the melody. We chose this method because it creates an internal state of the network. Unlike feedforward neural networks, RNNs can use their internal memory to process arbitrary sequences of inputs. 
 	
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
