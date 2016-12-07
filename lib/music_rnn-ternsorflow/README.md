@@ -3,8 +3,8 @@ The original model is Multi-layer Recurrent Neural Networks (LSTM, RNN) for char
 
 For this project, we apply the model onto abc notation music.
 
-# Requirements
-- [Tensorflow](http://www.tensorflow.org)
+# Install Instruction
+- In [Tensorflow](http://www.tensorflow.org), they provide a through tutorial about the installation and usage. We used python 2.7.12 and Ubuntu Operating System to run this code.
 
 # Basic Usage
 - To train with default parameters on the nottingham music, run `python train.py` in command line under the directory of this file.
