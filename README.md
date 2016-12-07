@@ -17,7 +17,8 @@ Term: Fall 2016
 		+ ABC notation is our input. It's a shorthand form of musical notation, which uses the letters A through G to represent the given notes, with other elements used to place added value on these - sharp, flat, the length of the note, key, ornamentation. A typical ABC notation is like: 
 	![screenshot](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/blob/master/figs/ABC%20example.png)
 	
-	+ Model: We used Recurrent Neural Network to predict the melody. We chose this method because it creates an internal state of the network. Unlike feedforward neural networks, RNNs can use their internal memory to process arbitrary sequences of inputs. We chose the LSTM, a very special kind of recurrent neural network to train the model because the notation dependency. We train the model by???
+	+ Model: We used Recurrent Neural Network to predict the melody. We chose this method because it creates an internal state of the network. Unlike feedforward neural networks, RNNs can use their internal memory to process arbitrary sequences of inputs. We chose the LSTM, a very special kind of recurrent neural network to train the model because the notation dependency. A simple demo is:
+	![screenshot](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/blob/master/figs/RNN.png)
 	
 	+ Prediction: We predict the melody based on a given piece of melody. Users are also allowed to choose the music style. We offer three chioces: Chinese Pop, Classic and ACG. 
 	
