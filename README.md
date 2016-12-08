@@ -25,7 +25,7 @@ Term: Fall 2016
 		
 	+ __Environment:__ We use Ubuntu + Python 2.7.12 + Tensorflow to construct and run this model.
 	
-	+ __Model:__ We used Recurrent Neural Network to generate("predict") the melody. We chose this method because it creates an internal state of the network. Unlike feedforward neural networks, RNNs can use their internal memory to process arbitrary sequences of inputs. We chose the LSTM, a kind of recurrent neural network to train the model because it can well capture the notation dependency. A simple demo is:
+	+ __Model:__ We used Recurrent Neural Network to generate("predict") the melody. This model was originally used in generating a text that looks like the training data. We import this model in generating music, since they are both sequence and both have "grammer" to some degree. We chose this method also because it creates an internal state of the network. Unlike feedforward neural networks, RNNs can use their internal memory to process arbitrary sequences of inputs. To make this idea work, we still need a text representation of music. And as stated above, the ancient ABC notation greatly help us out! Then we chose the LSTM, one specific kind of recurrent neural network, to train the model because it can well capture the notation dependency. A simple demo is:
 	![screenshot](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/blob/master/doc/RNN.png)
 	
 	+ __Model setting and training:__ We used Long Short-Term Memory (LSTM) RNN model with 2 hidden layers, 128 nodes in each hidden layer, 100 epoch and 50 chars memory. The logistic function as our loss function. 
