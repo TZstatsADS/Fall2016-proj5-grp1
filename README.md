@@ -43,6 +43,13 @@ Term: Fall 2016
 		+ [Chinese Folk Extended in Nottingham style](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/raw/master/output/Generated%20Music/Experiment%20%20Music/Generated%20(Notingham%20Style).mid)
 		+ With the same idea, we made a [Modified *Ode of Joy*](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/raw/master/output/Generated%20Music/Experiment%20%20Music/Generated%20with%20Ode%20of%20Joy%20Starter.mid)
 
+	+ **Visualization:**
+		+ We developed a website application for this model. In this website, we trained 4 models with different styles of training data, and the user can choose any style they want to generate. If the starter input is left blank, the machine will composed all on its own.
+		
+		![screenshot](https://raw.githubusercontent.com/TZstatsADS/Fall2016-proj5-proj5-grp1/master/doc/Web%20shot%201.png)
+		
+		![screenshot](https://raw.githubusercontent.com/TZstatsADS/Fall2016-proj5-proj5-grp1/master/doc/Web%20shot%202.png)
+		
 	+ __Reflection:__
 		+ The performance of neural network may highly depends on the data format fed into it, i.e. the features and pattern should be easy to learn by machine. ABC notation from our ancestor happens to meet this condition. For further development, if there comes to be a tidy presentation of multi-track music(in our example, only 1 or 2 tracks), this model could perform in a higher platform.
 		+ The structure (# of layers, # of batchs, # of hidden layer states, etc) design is actually a bias variance trade-off. With more data, one can get a less biased (smarter) neural network by adding more nodes.
