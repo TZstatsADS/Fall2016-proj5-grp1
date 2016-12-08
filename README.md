@@ -21,7 +21,7 @@ Term: Fall 2016
 	
 		1. **Hand-made data**: We got the melody data from [public website](http://www.popiano.org/big5/piano/). The raw data is in .ove format, which contains music score information. We first transformed them into MID format, then into ABC notation format. 
 		
-		2. **Ripe data**: In [ABC notation](http://http://abcnotation.com/), we used R crawler to get the data. In [Notingham Music](http://abc.sourceforge.net/NMD/) We copied and pasted them together. 
+		2. **Ripe data**: In the website [*ABC notation*](http://abcnotation.com/), we used R crawler to get the data. In [Notingham Music](http://abc.sourceforge.net/NMD/) We copied and pasted them together. 
 		
 	+ __Environment:__ We use Ubuntu + Python 2.7.12 + Tensorflow to construct and run this model.
 	
@@ -39,12 +39,12 @@ Term: Fall 2016
 	+ __More Fun Play:__ To test how the machine work and testify the judgement stated above, we ask the machine to extend a given piece of melody. This piece is taken out from a Chinese folk melody, which is not included in the training dataset. The machine is trained with Nottingham music. So the production should be a hybrid of Chinese folk and Nottingham, which is supposed to be a whole mess. __But it turns out not that case!!__
 		+ [The original Chinese melody from where we take the starter](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/raw/master/output/Generated%20Music/Experiment%20%20Music/Original%20(Chinese%20Folk).mid)
 		+ [Hybrid of Chinese folk and Nottingham](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/raw/master/output/Generated%20Music/Experiment%20%20Music/Generated%20(Notingham%20Style).mid)
-		+ With the same idea, we made a [Modified Ode of Joy](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/raw/master/output/Generated%20Music/Experiment%20%20Music/Generated%20with%20Ode%20of%20Joy%20Starter.mid)
+		+ With the same idea, we made a [Modified *Ode of Joy*](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/raw/master/output/Generated%20Music/Experiment%20%20Music/Generated%20with%20Ode%20of%20Joy%20Starter.mid)
 
 	+ __Reflection:__
-		+ The performance of neural network may highly depends on the data format fed into it, i.e. the feature and pattern should be easy to learn by machine.
-		+ The structure (# of layers, # of batchs, # of hidden layer states, etc) design is actually a bias variance trade-off. With more data, one can get a less biased (smarter) neural network.
-		+ The quality of generated music, in this state now, depends highly on the quality of training data. It is a pity that we can’t find the ABC notation of the most popular music, otherwise it is supposed to be better.
+		+ The performance of neural network may highly depends on the data format fed into it, i.e. the features and pattern should be easy to learn by machine. ABC notation from our ancestor happens to meet this condition. For further development, if there comes to be a tidy presentation of multi-track music(in our example, only 1 or 2 tracks), this model could perform in a higher platform.
+		+ The structure (# of layers, # of batchs, # of hidden layer states, etc) design is actually a bias variance trade-off. With more data, one can get a less biased (smarter) neural network by adding more nodes.
+		+ The quality of generated music, in this state now, depends highly on the quality of training data. This model learn from the training data, so it's generated music has a similar style as them. It is a pity that we can’t find the ABC notation of the most popular music, otherwise it could be more fun.
 		
 	+ __Further improvement:__ In order to predict a more beautiful melody, we could improve by: 
 		+ Add more data and styles in the training step, and select better music.
