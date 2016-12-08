@@ -22,6 +22,8 @@ Term: Fall 2016
 		1. **Hand-made data**: We got the melody data from [public website](http://www.popiano.org/big5/piano/). The raw data is in .ove format, which contains music score information. We first transformed them into MID format, then into ABC notation format. 
 		
 		2. **Ripe data**: In [ABC notation](http://http://abcnotation.com/), we used R crawler to get the data. In [Notingham Music](http://abc.sourceforge.net/NMD/) We copied and pasted them together. 
+		
+	+ __Environment:__ We use Ubuntu + Python 2.7.12 + Tensorflow to construct and run this model.
 	
 	+ __Model:__ We used Recurrent Neural Network to generate("predict") the melody. We chose this method because it creates an internal state of the network. Unlike feedforward neural networks, RNNs can use their internal memory to process arbitrary sequences of inputs. We chose the LSTM, a kind of recurrent neural network to train the model because it can well capture the notation dependency. A simple demo is:
 	![screenshot](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/blob/master/doc/RNN.png)
