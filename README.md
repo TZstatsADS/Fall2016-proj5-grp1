@@ -19,7 +19,7 @@ Term: Fall 2016
 	
 	+ __Data Source:__
 	
-		1. **Hand-made data**: We got the melody data from [public website](http://www.popiano.org/big5/piano/). The raw data is in .ove format, which contains music score information. We first transformed them into MID format, then into ABC notation format. 
+		1. **Hand-made data**: We got the melody data from [popiano.org](http://www.popiano.org/big5/piano/). The raw data is in .ove format, which contains music score information. We first transformed them into MID format, then into ABC notation format. 
 		
 		2. **Ripe data**: In the website [*ABC notation*](http://abcnotation.com/), we used R crawler to get the data. In [Notingham Music](http://abc.sourceforge.net/NMD/) We copied and pasted them together. 
 		
@@ -31,7 +31,7 @@ Term: Fall 2016
 	+ __Model setting and training:__ We used Long Short-Term Memory (LSTM) RNN model with 2 hidden layers, 128 nodes in each hidden layer, 100 epoch and 50 chars memory. The logistic function as our loss function. 
 	![screenshot](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/blob/master/doc/loss_function.png)
 	
-	+ __Generation:__ We generated the melody based on a given piece of melody(which could be empty though). Users are also allowed to choose the music style. We offered four chioces: Nottingham, Chinese Pop, Chinese Shange and ACG. Each generator is a RNN-LSTM model trained with the musics from that style. Details is in the ppt file in doc folder. After getting the words result, we use [this website](http://colinhume.com/music.aspx#) to convert to music.
+	+ __Generation:__ We generated the melody based on a given piece of melody(which could be empty though). Users are also allowed to choose the music style. We offered four chioces: Nottingham, Chinese Pop, Chinese Shange and ACG. Each generator is a RNN-LSTM model trained with the musics from that style. Details is in the ppt file in doc folder. After getting the words result, we use [Colin Hume's website](http://colinhume.com/music.aspx#) to convert to music.
 	
 		![screenshot](https://raw.githubusercontent.com/TZstatsADS/Fall2016-proj5-proj5-grp1/master/doc/RNN%20illustration.gif)
 	
