@@ -2,15 +2,15 @@
 
 Term: Fall 2016
 
-+ Team Name: Data Kings
-+ Team members
++ **Team Name:** Data Kings
++ **Team members**
 	+ Guanzhong You (gy2224)
 	+ Yinxiang Gao (yg2424)
 	+ Chencheng Jiang (cj2451)
 	+ Wenhang Bao (wb2304)
 	+ Chang Liu (cl3388)
 
-+ Project summary: This project is the last project of Applied Data Science. The objective is to generate a melody with RNN-LSTM model, with or without specifying the starting part of the wanted melody. With this machine, we can produce infinite number of musics. This could be as amazing as afa go if we have high quality music data. (**Doubt?** After hearing the generated songs you will **not!**)
++ **Project summary:** This project is the last project of Applied Data Science. The objective is to generate a melody with RNN-LSTM model, with or without specifying the starting part of the wanted melody. With this machine, we can produce infinite number of musics. This could be as amazing as afa go if we have high quality music data. (**Doubt?** After hearing the generated songs you will **not!**)
 
 	+ __Data Form:__
 	
