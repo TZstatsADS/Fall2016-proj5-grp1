@@ -32,10 +32,12 @@ Term: Fall 2016
 	+ Generation: We generated the melody based on a given piece of melody(which could be empty though). Users are also allowed to choose the music style. We offered four chioces: Nottingham, Chinese Pop, Chinese Shange and ACG. Each generator is a RNN-LSTM model trained with the musics from that style. 
 	
 	+ Result: The generated music is really amazing. The machine seems neither copy pieces from training data and combine them, nor generates some smooth but random music. Instead, from the behavior, the machine seems to have understand some underlying structure of the music components. Here are some examples we generated. If you want to listen more, please look at the output folder.
-		+ Nottingham
-		+ Chinese Folk (Shan Ge)
-	+ More Fun Play: To test how the machine work and testify the judgement stated above, we ask the machine to extend a given piece of melody. This piece is taken out from a Chinese folk melody, which is not included in the training dataset. The machine is trained with Nottingham music. So the production should be a hybrid of Chinese folk and Nottingham, which is supposed to be a whole mess. But it turns out not that case!!
-		+ Hybrid of Chinese folk and Nottingham
+		+ [Nottingham] (https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/raw/master/output/Generated%20Music/My%20Favorite/Notingham.mid)
+		+ [Chinese Folk (山歌)](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/raw/master/output/Generated%20Music/My%20Favorite/Chinese%20Folk.mid)
+	+ More Fun Play: To test how the machine work and testify the judgement stated above, we ask the machine to extend a given piece of melody. This piece is taken out from a Chinese folk melody, which is not included in the training dataset. The machine is trained with Nottingham music. So the production should be a hybrid of Chinese folk and Nottingham, which is supposed to be a whole mess. But it turns out not that case!! 
+		+ [The original Chinese melody from where we take the starter](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/raw/master/output/Generated%20Music/Experiment%20%20Music/Original%20(Chinese%20Folk).mid)
+		+ [Hybrid of Chinese folk and Nottingham](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/raw/master/output/Generated%20Music/Experiment%20%20Music/Generated%20(Notingham%20Style).mid)
+		+ With the same idea, we made a [Modified Ode of Joy](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/raw/master/output/Generated%20Music/Experiment%20%20Music/Generated%20with%20Ode%20of%20Joy%20Starter.mid)
 
 	+ Reflection:
 		+ The performance of neural network may highly depends on the data format fed into it, i.e. the feature and pattern should be easy to learn by machine.
