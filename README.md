@@ -29,7 +29,7 @@ Term: Fall 2016
 	+ **Model setting and training:** We used Long Short-Term Memory (LSTM) RNN model with 2 hidden layers, 128 nodes in each hidden layer, 100 epoch and 50 chars memory. The logistic function as our loss function. 
 	![screenshot](https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/blob/master/doc/loss_function.png)
 	
-	+ **Generation:** We generated the melody based on a given piece of melody(which could be empty though). Users are also allowed to choose the music style. We offered four chioces: Nottingham, Chinese Pop, Chinese Shange and ACG. Each generator is a RNN-LSTM model trained with the musics from that style. 
+	+ **Generation:** We generated the melody based on a given piece of melody(which could be empty though). Users are also allowed to choose the music style. We offered four chioces: Nottingham, Chinese Pop, Chinese Shange and ACG. Each generator is a RNN-LSTM model trained with the musics from that style. Details is in the ppt file in doc folder. After getting the words result, we use [this website](http://colinhume.com/music.aspx#) to convert to music.
 	
 	+ **Result:** The generated music is really **amazing**. The machine seems neither copy pieces from training data and combine them, nor generates some smooth but random music. Instead, from the behavior, the machine seems to have understand some underlying structure of the music components. Here are some examples we generated. If you want to listen more, please look at the output folder.
 		+ [Nottingham] (https://github.com/TZstatsADS/Fall2016-proj5-proj5-grp1/raw/master/output/Generated%20Music/My%20Favorite/Notingham.mid)
