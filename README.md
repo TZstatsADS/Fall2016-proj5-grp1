@@ -1,9 +1,8 @@
-# ADS Final Project
+# ADS Final Project: Music Genius
 
 Term: Fall 2016
 
 + Team Name: Data Kings
-+ Projec title: Music Genius
 + Team members
 	+ Guanzhong You (gy2224)
 	+ Yinxiang Gao (yg2424)
