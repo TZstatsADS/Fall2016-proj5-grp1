@@ -12,7 +12,7 @@ Term: Fall 2016
 	+ Chang Liu (cl3388)
 
 + Project summary: This project is the last project of Applied Data Science. The objective is to generate a melody with RNN-LSTM model, with or without specifying the starting part of the wanted melody. 
-	+ __Data Form: __
+	+ __Data Form:__
 	
 		+ ABC notation is our input. It's a shorthand form of musical notation, which uses the letters A through G to represent the given notes, with other elements used to place added value on these - sharp, flat, the length of the note, key, ornamentation. To know more about [ABC notation](https://en.wikipedia.org/wiki/ABC_notation). A typical ABC notation is like: 
 	![screenshot](https://raw.githubusercontent.com/TZstatsADS/Fall2016-proj5-proj5-grp1/master/doc/ABC%20example.png)
