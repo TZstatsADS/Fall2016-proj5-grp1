@@ -11,7 +11,8 @@ Term: Fall 2016
 	+ Wenhang Bao (wb2304)
 	+ Chang Liu (cl3388)
 
-+ Project summary: This project is the last project of Applied Data Science. The objective is to generate a melody with RNN-LSTM model, with or without specifying the starting part of the wanted melody. 
++ Project summary: This project is the last project of Applied Data Science. The objective is to generate a melody with RNN-LSTM model, with or without specifying the starting part of the wanted melody. With this machine, we can produce infinite number of musics. This could be as amazing as afa go if we have high quality music data. (**Doubt?** After hearing the generated songs you will **not!**)
+
 	+ __Data Form:__
 	
 		+ ABC notation is our input. It's a shorthand form of musical notation, which uses the letters A through G to represent the given notes, with other elements used to place added value on these - sharp, flat, the length of the note, key, ornamentation. To know more about [ABC notation](https://en.wikipedia.org/wiki/ABC_notation). A typical ABC notation is like: 
